@@ -71,7 +71,7 @@ export default class EmployeeProfile extends React.Component {
             error: function (res) {
                 console.log(res.status)
             }
-        }) 
+        })
         this.init()
     }
 
@@ -206,7 +206,7 @@ export default class EmployeeProfile extends React.Component {
                                                 componentId='companyContact'
                                             />
                                         </FormItemWrapper>
-                                     
+
                                         <FormItemWrapper
                                             title='Display profile'
                                             tooltip='Toggle company profile visibility in the employer feed.'

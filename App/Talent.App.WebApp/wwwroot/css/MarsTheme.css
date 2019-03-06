@@ -1,4 +1,8 @@
-﻿.margin-top-25px {
+﻿.ui.container > .ui.three.stackable.cards > .card {
+    height: 320px;
+}
+
+.margin-top-25px {
     margin-top: 25px
 }
 
